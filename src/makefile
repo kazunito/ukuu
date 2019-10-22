@@ -54,7 +54,7 @@ app-translations:
 	
 	# update translation files
 	# am ar az bg ca cs da de el en_GB es et eu fr he hi hr hu ia id is it ko lt nb ne nl pl pt pt_BR ro ru sk sr sv tr uk vi zh_CN
-	for lang in es fr hr nl pl ru sv tr; do \
+	for lang in es fr hr nl pl ru sv tr ja; do \
 		msgmerge --update -v ../po/${app_name}-$$lang.po ../${app_name}.pot ; \
 	done
 	
